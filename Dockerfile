@@ -8,4 +8,4 @@ RUN npm install -g json-server
 
 COPY db.json db.json
 
-ENTRYPOINT ["json-server", "--watch", "db.json", "--port", "80"]
+ENTRYPOINT ["json-server"]
