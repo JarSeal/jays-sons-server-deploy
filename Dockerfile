@@ -8,4 +8,4 @@ RUN npm install -g json-server
 
 COPY db.json db.json
 
-CMD ["json-server", "--config"]
+CMD ["json-server"]
