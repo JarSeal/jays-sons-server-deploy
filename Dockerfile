@@ -8,4 +8,4 @@ RUN npm install -g json-server
 
 COPY db.json db.json
 
-CMD ["json-server", "--port", "80", "--host", "0.0.0.0", "db.json"]
+CMD ["json-server", "--port", "80", "--host", "localhost", "--watch", "true", "db.json"]
