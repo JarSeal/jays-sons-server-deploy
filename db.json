@@ -1,8 +1,7 @@
 {
     "posts": [
         {
-            "message": "Please provide json file to display with when running this image.",
-            "example": "docker run -d -p <outside port>:3000 -v $(pwd)/<path to your db.json>:/jsondata/db.json norppa55/jays-sons-server --watch db.json"
+            "message": "Please replace this json file to use as dummy data."
         }
     ]
 }
